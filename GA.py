@@ -3,7 +3,7 @@ from deap import creator, base, tools, algorithms
 import numpy as np
 import matplotlib.mlab as mlab
 import matplotlib.pyplot as plt
-
+# library to implement Genetic Algorithm
 creator.create("FitnessMax", base.Fitness, weights=(1.0,))
 creator.create("Individual", list, fitness=creator.FitnessMax)
 
